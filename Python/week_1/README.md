@@ -1,10 +1,13 @@
 # Week 1
 
-I just learned how to download the python and work with it...
+## exercise_1.py
 
-|Year|Month|Day|
-|--|--|--|
-|2025|1|13|
+The program receives two inputs from the user, first name and last name, and displays them in the output.
 
-- [x] python variables
-- [x] python operators
+## exercise_2.py
+
+The program receives two numbers as input and performs four mathematical operations: addition, subtraction, multiplication, and division on those numbers.
+
+## exercise_3.py
+
+The program takes the year of birth from the user and displays the user's age in the output.
