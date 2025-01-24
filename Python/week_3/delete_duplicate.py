@@ -1,4 +1,4 @@
-user_input_count = int(input("Enter the number inputs: "))
+user_input_count = int(input("Enter the number of inputs: "))
 
 
 sample_list = []
