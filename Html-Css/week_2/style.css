@@ -1,0 +1,7 @@
+p{
+    color: darkorange;
+    font-weight: bold;
+    font-family: cursive;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
