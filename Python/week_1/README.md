@@ -2,7 +2,7 @@
 
 ## exercise_1.py
 
-The program receives two inputs from the user, first name and last name, and displays them in the output.
+The program receives two inputs from the user: first name and last name, and displays them in the output.
 
 ## exercise_2.py
 
