@@ -39,22 +39,19 @@ def add_product():
 def find_product():
     found = False
     try:
-        user_search = input("Enter the name of the product: ")
+        user_search = str(input("Enter the name of the product: "))
         for i in products:
-            if i["name"] == user_search:
+            if i['name'] == user_search:
                 found = True
-                founded_index = products[i]
-                
+                print("product found!")
+                print("info:")
+                print(f"name: {i['name']}\nprice: {i['price']}\n")
+                break
+            else:
+                found = False
 
         if found == False:
             print("product not found!\n")
-            return
-        else:
-            print("product found!")
-            print("info:")
-            print(f"name: {founded_index['name']}\nprice: {founded_index['price']}\n")
-            return
-
 
     except:
         print("something went wrong, try again...\n")
@@ -80,22 +77,23 @@ def remove_product():
 def update_product():
     found = False
     try:
-        user_search = input("Enter the name of the product: ")
+        user_search = str(input("Enter the name of the product: "))
         for i in products:
-            if i["name"] == user_search:
+            if i['name'] == user_search:
                 found = True
                 print("product found!")
                 print("info:")
                 print(f"name: {i['name']}\nprice: {i['price']}\n")
                 new_name = input("Enter the new name of the product: ")
                 new_price = int(input("Enter the new price of the product: "))
-                i.update({"name": new_name, "price": new_price})
+                i.update({'name': new_name, 'price': new_price})
                 print("product updated successfully...\n")
-                return
+                break
+            else:
+                found = False
 
-            if found == False:
-                print("product not found!\n")
-                return
+        if found == False:
+            print("product not found!\n")
 
     except:
         print("something went wrong, try again...\n")
