@@ -1,4 +1,4 @@
-import functions
+import calculator.module as module
 
 while True:
 
@@ -16,28 +16,28 @@ while True:
     match user_selection:
 
         case 1:
-            functions.Addition()
+            module.Addition()
 
         case 2:
-            functions.Subtraction()
+            module.Subtraction()
 
         case 3:
-            functions.Multiplication()
+            module.Multiplication()
 
         case 4:
-            functions.Division()
+            module.Division()
             
         case 5:
-            functions.Sin()
+            module.Sin()
 
         case 6:
-            functions.Cos()
+            module.Cos()
 
         case 7:
-            functions.Tan()
+            module.Tan()
 
         case 8:
-            functions.CoTan()
+            module.CoTan()
 
         case _:
             print("Invalid input\n")
