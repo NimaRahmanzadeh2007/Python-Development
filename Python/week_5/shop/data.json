@@ -1,0 +1,30 @@
+[
+    {
+        "name": "water",
+        "price": 50
+    },
+    {
+        "name": "cake",
+        "price": 10
+    },
+    {
+        "name": "salad",
+        "price": 45
+    },
+    {
+        "name": "cheese",
+        "price": 20
+    },
+    {
+        "name": "pen",
+        "price": 5
+    },
+    {
+        "name": "milk",
+        "price": 40
+    },
+    {
+        "name": "nima",
+        "price": 20
+    }
+]
