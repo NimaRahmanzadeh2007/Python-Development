@@ -1,4 +1,4 @@
-import calculator.module as module
+import module
 
 while True:
 
