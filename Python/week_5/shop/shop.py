@@ -12,7 +12,8 @@ while True:
         print("3.remove product")
         print("4.update product")
         print("5.save database")
-        print("6.show database")  
+        print("6.show database")
+        print("7.exit")
         print("-----------------------")
         user_input = int(input("Choose one(enter the number):"))
 
@@ -35,6 +36,10 @@ while True:
             case 6:
 
                 module.show_db(products)
+            case 7:
+
+                print("exiting...")
+                break
 
             case _:
                 print("invalid input...\n")

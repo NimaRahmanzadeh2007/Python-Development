@@ -24,7 +24,19 @@
         "price": 40
     },
     {
-        "name": "nima",
+        "name": "bread",
+        "price": 15
+    },
+    {
+        "name": "apple",
+        "price": 30
+    },
+    {
+        "name": "banana",
         "price": 20
+    },
+    {
+        "name": "orange",
+        "price": 25
     }
 ]

@@ -100,3 +100,4 @@ def save_db(products):
 def show_db(products):
     for i in products:
         print(f"name: {i['name']}, price: {i['price']}")
+    print("\n")
