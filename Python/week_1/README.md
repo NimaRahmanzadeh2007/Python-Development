@@ -1,13 +1,13 @@
 # Week 1
 
-## exercise_1.py
+## [`exercise_1.py`](./exercise_1.py)
 
-The program receives two inputs from the user: first name and last name, and displays them in the output.
+This program prompts the user to enter their first name and last name, then displays the full name.
 
-## exercise_2.py
+## [`exercise_2.py`](./exercise_2.py)
 
-The program receives two numbers as input and performs four mathematical operations: addition, subtraction, multiplication, and division on those numbers.
+This program prompts the user to enter two numbers and performs addition, subtraction, multiplication, and division on those numbers, displaying the results.
 
-## exercise_3.py
+## [`exercise_3.py`](./exercise_3.py)
 
-The program takes the year of birth from the user and displays the user's age in the output.
+This program prompts the user to enter their year of birth and calculates their age based on the current year, displaying the result.

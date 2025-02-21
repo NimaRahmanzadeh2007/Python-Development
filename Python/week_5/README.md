@@ -2,8 +2,13 @@
 
 ## calculator
 
-There are two files in this folder. The file "module.py" has functions that perform mathematical calculations, and the file "main.py", which is the main file, is responsible for managing the input.
+There are two files in this folder:
+- [`module.py`](./calculator/module.py): Contains functions that perform mathematical calculations.
+- [`main.py`](./calculator/main.py): Manages the input and utilizes the functions from `module.py` to perform calculations.
 
 ## shop
 
-There are three files in this folder: file "data.json", which stores the data. file "module.py", which contains the functions that are responsible for adding, deleting and... products to the store. and file "main.py", which is the main file that is responsible for managing the input. it receives the input from the user and displays the appropriate output according to the input, which also includes storing the data in the database.
+There are three files in this folder:
+- [`data.json`](./shop/data.json): Stores the data for the shop.
+- [`module.py`](./shop/module.py): Contains functions responsible for adding, deleting, and managing products in the store.
+- [`main.py`](./shop/main.py): Manages the input from the user, displays the appropriate output, and interacts with `module.py` to update the `data.json` file accordingly.

@@ -1,20 +1,20 @@
 # Week 2 Practices
 
-## delete_duplicate.py
+## [`delete_duplicate.py`](./delete_duplicate.py)
 
-This program gets a list from the user and deletes the duplicate values.
+This script prompts the user to input a list and then removes any duplicate values from that list.
 
-## even_filter.py
+## [`even_filter.py`](./even_filter.py)
 
-This program gets a list from the user and adds the even values to another list and shows it in the output.
+This script prompts the user to input a list and then filters out the even numbers, displaying them in a new list.
 
-## list_rotate.py
+## [`list_rotate.py`](./list_rotate.py)
 
-This program gets a list and the number of rotations from the user and rotates the elements inside the list by the specified number of rotations.
+This script prompts the user to input a list and a number of rotations, then rotates the elements in the list by the specified number of rotations.
 
-## score_calculator.py
+## [`score_calculator.py`](./score_calculator.py)
 
-This program gets a list of scores from the user and calculates the average of the scores.
+This script prompts the user to input a list of scores and then calculates and displays the average score.
 
 ## My Certificate
 
