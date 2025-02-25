@@ -1,0 +1,87 @@
+[
+    {
+        "subject": "Watchmen",
+        "writer": "Alan Moore",
+        "year": 1986
+    },
+    {
+        "subject": "V for Vendetta",
+        "writer": "Alan Moore",
+        "year": 1988
+    },
+    {
+        "subject": "To Kill a Mockingbird",
+        "writer": "Harper Lee",
+        "year": 1960
+    },
+    {
+        "subject": "Go Set a Watchman",
+        "writer": "Harper Lee",
+        "year": 2015
+    },
+    {
+        "subject": "The Raven",
+        "writer": "Edgar Allan Poe",
+        "year": 1845
+    },
+    {
+        "subject": "The Tell-Tale Heart",
+        "writer": "Edgar Allan Poe",
+        "year": 1843
+    },
+    {
+        "subject": "Maus",
+        "writer": "Art Spiegelman",
+        "year": 1991
+    },
+    {
+        "subject": "1984",
+        "writer": "George Orwell",
+        "year": 1949
+    },
+    {
+        "subject": "Animal Farm",
+        "writer": "George Orwell",
+        "year": 1945
+    },
+    {
+        "subject": "The Waste Land",
+        "writer": "T. S. Eliot",
+        "year": 1922
+    },
+    {
+        "subject": "Four Quartets",
+        "writer": "T. S. Eliot",
+        "year": 1943
+    },
+    {
+        "subject": "The Dark Knight Returns",
+        "writer": "Frank Miller",
+        "year": 1986
+    },
+    {
+        "subject": "Batman: Year One",
+        "writer": "Frank Miller",
+        "year": 1987
+    },
+    {
+        "subject": "Pride and Prejudice",
+        "writer": "Jane Austen",
+        "year": 1813
+    },
+    {
+        "subject": "Sense and Sensibility",
+        "writer": "Jane Austen",
+        "year": 1811
+    },
+    {
+        "subject": "The Odyssey",
+        "writer": "Homer",
+        "year": -800
+    },
+    {
+        "subject": "The Iliad",
+        "writer": "Homer",
+        "year": -750
+    }
+]

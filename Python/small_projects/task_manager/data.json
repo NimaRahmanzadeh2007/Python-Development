@@ -1,0 +1,30 @@
+[
+    {
+        "title": "homework",
+        "checked": true
+    },
+    {
+        "title": "study",
+        "checked": false
+    },
+    {
+        "title": "work",
+        "checked": false
+    },
+    {
+        "title": "play",
+        "checked": true
+    },
+    {
+        "title": "project",
+        "checked": false
+    },
+    {
+        "title": "nima",
+        "checked": false
+    },
+    {
+        "title": "sleep",
+        "checked": true
+    }
+]
