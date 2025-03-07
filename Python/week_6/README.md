@@ -11,6 +11,6 @@ There are two files in this folder:
 There are three files in this folder:
 - [`data.json`](./shop/data.json): Contains product data for the shop.
 - [`module.py`](./shop/module.py): Provides functions to add, delete, and manage products in the store.
-- [`main.py`](./shop/shop.py): Handles user input, displays output, and updates `data.json` through `module.py`.
+- [`shop.py`](./shop/shop.py): Handles user input, displays output, and updates `data.json` through `module.py`.
 
 
