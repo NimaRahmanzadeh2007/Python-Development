@@ -1,16 +1,13 @@
-# Week 6
+# Shop Manager
 
-<!-- ## calculator
+## [shop.py](./shop.py)
 
-There are two files in this folder:
-- [`module.py`](./new/): Contains functions for mathematical calculations.
-- [`main.py`](./new/): Handles user input and uses `module.py` functions to perform calculations. -->
+This program allows users to manage a shop's inventory. Users can add, find, show, update, and delete products from the inventory. The data is stored in a JSON file.
 
-## shop
+## [module.py](./module.py)
 
-There are three files in this folder:
-- [`data.json`](./shop/data.json): Contains product data for the shop.
-- [`module.py`](./shop/module.py): Provides functions to add, delete, and manage products in the store.
-- [`shop.py`](./shop/shop.py): Handles user input, displays output, and updates `data.json` through `module.py`.
+This module contains functions to load and save the product database, as well as functions to add, find, show, update, and delete products.
 
+## [data.json](./data.json)
 
+This JSON file contains the initial data for the shop, including a list of products with their names and prices.

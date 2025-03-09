@@ -1,12 +1,9 @@
-# Number Guesser README
+# Number Guesser
 
-This repository contains two Python files that are part of the Number Guesser project. Below is a brief description of each file:
+## [main.py](./main.py)
 
-## File Descriptions
+This program allows users to guess a randomly generated number between 0 and 100. The user is prompted to enter guesses until the correct number is guessed.
 
-### 1. `main.py`
-- **Description**: The main script that initiates the number guessing game by calling the `guess_number` function from `modules.py`.
+## [modules.py](./modules.py)
 
-### 2. `modules.py`
-- **Description**: Contains functions for generating a random number and handling the number guessing game logic.
-
+This module contains functions to generate a random number and to handle the guessing logic, including user input and feedback.

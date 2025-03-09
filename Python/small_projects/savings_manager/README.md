@@ -1,12 +1,10 @@
-# Savings Manager README
+# Savings Manager
 
-This repository contains two Python files that are part of the Savings Manager project. Below is a brief description of each file:
+## [main.py](./main.py)
 
-## File Descriptions
+This program allows users to manage their savings. Users can calculate their budget based on their monthly income and expenses.
 
-### 1. `main.py`
-- **Description**: The main script that starts the savings management program, allowing users to calculate savings or exit the application.
+## [modules.py](./modules.py)
 
-### 2. `modules.py`
-- **Description**: Contains functions for calculating savings based on user input, including cash usage and warnings for excessive spending.
+This module contains the function to calculate the budget, including warnings if the user is overspending.
 

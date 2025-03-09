@@ -1,12 +1,9 @@
-# Unit Converter README
+# Unit Converter
 
-This repository contains a Python project for converting various units. Below is a brief description of each file:
+## [main.py](./main.py)
 
-## File Descriptions
+This program allows users to convert various units. Users can convert between Celsius and Fahrenheit, meters and feet, kilograms and pounds, and seconds to minutes and hours.
 
-### 1. `main.py`
-- **Description**: The main script that provides a menu for selecting different unit conversions and calls the appropriate functions from `modules.py`.
+## [modules.py](./modules.py)
 
-### 2. `modules.py`
-- **Description**: Contains functions for converting units such as temperature, length, weight, and time.
-
+This module contains functions to perform the unit conversions, including temperature, length, weight, and time conversions.

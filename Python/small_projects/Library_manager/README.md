@@ -1,15 +1,13 @@
-# library README
+# Library_manager
 
-This repository contains three Python files that are part of the AI exercise library. Below is a brief description of each file:
+## [main.py](./main.py)
 
-## File Descriptions
+This program allows users to manage a library of books. Users can add, find, show, and delete books from the library. The data is stored in a JSON file.
 
-### 1. `main.py`
-- **Description**: The main script that provides a menu for adding, finding, showing, and deleting books from the library.
+## [modules.py](./modules.py)
 
-### 2. `books.json`
-- **Description**: A JSON file that contains the initial list of books in the library.
+This module contains functions to load and save the book database, as well as functions to add, find, show, and delete books.
 
-### 3. `modules.py`
-- **Description**: Contains functions for loading, saving, adding, finding, showing, and deleting books in the library.
+## [books.json](./books.json)
 
+This JSON file contains the initial data for the library, including a list of books with their subjects, writers, and years of publication.

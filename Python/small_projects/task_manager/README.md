@@ -1,14 +1,13 @@
-# Task Manager README
+# Task Manager
 
-This repository contains a Python project for managing tasks and a number guessing game. Below is a brief description of each file:
+## [main.py](./main.py)
 
-## File Descriptions
+This program allows users to manage a list of tasks. Users can add, remove, show, and check tasks from the list. The data is stored in a JSON file.
 
-### 1. `main.py`
-- **Description**: The main script that initiates the number guessing game by calling the `guess_number` function from `modules.py`.
+## [modules.py](./modules.py)
 
-### 2. `modules.py`
-- **Description**: Contains functions for generating a random number and handling the number guessing game logic.
+This module contains functions to load and save the task database, as well as functions to add, remove, show, and check tasks.
 
-### 3. `data.json`
-- **Description**: A JSON file that contains a list of tasks with their titles and checked status for the task manager project.
+## [data.json](./data.json)
+
+This JSON file contains the initial data for the task manager, including a list of tasks with their titles and checked status.
