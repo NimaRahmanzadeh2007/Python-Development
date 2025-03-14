@@ -1,9 +1,7 @@
-import module
+from module import Shop
 
 
-products = list()
-
-products = module.load_db()
+products = Shop('shop/data.json')
 
 while True:
     try:
@@ -20,22 +18,22 @@ while True:
         match user_input:
             case 1:
 
-                products = module.add_product(products)
+                products.add_product()
             case 2:
 
-                module.find_product(products)
+                products.find_product()
             case 3:
 
-                module.remove_product(products)
+                products.remove_product()
             case 4:
 
-                products = module.update_product(products)
+                products.update_product()
             case 5:
 
-                module.save_db(products)
+                products.save_db()
             case 6:
 
-                module.show_db(products)
+                products.show_db()
             case 7:
 
                 print("exiting...")

@@ -20,10 +20,6 @@
         "price": 5
     },
     {
-        "name": "milk",
-        "price": 40
-    },
-    {
         "name": "bread",
         "price": 15
     },
@@ -32,8 +28,8 @@
         "price": 30
     },
     {
-        "name": "banana",
-        "price": 20
+        "name": "green-banana",
+        "price": 40
     },
     {
         "name": "orange",
